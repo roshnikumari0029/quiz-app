@@ -1,0 +1,20 @@
+QUIZ-APP:-A simple and interactive quiz application built using ReactJS. 
+This app allows users to answer multiple-choice questions and receive feedback on their performance.
+
+FEATURES:
+1.Dynamic quiz questions with multiple-choice answers
+2.Score tracking and result display
+3.Responsive and user-friendly interface
+4.Timer for each question 
+5.Reset quiz option
+
+TECHNOLOGIES:
+1.ReactJS (Frontend framework)
+
+2.React Hooks for state management
+
+3.CSS, BootStrap for styling
+
+
+
+
