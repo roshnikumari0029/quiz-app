@@ -1,0 +1,94 @@
+
+  /* Styling the main quiz container */
+  .container {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    padding: 20px;
+    border-radius: 10px;
+    /* text-align: center; */
+    color: white;
+    width: 540px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Line separator */
+  hr {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Question styling */
+  h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  /* timer styling */
+  .timer{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 10px;
+  }
+  
+  /* List styling */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+     transition: 0.3s; 
+  }
+  
+  
+  
+  /* Next button styling */
+  button {
+    margin-top: 15px;
+   text-align: center;
+    padding: 10px 20px;
+    border: none;
+    background: #ff4b2b;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background: #ff6b4b;
+  }
+  
+  /* Question index (pagination) */
+  .index {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+
+  .correct{
+    background: #00d397;
+    color: white;
+    transition: 0.3s;
+  }
+  .wrong{
+    background: #ff4a4a;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  
+  
